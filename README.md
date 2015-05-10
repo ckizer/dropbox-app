@@ -8,8 +8,6 @@
 
 
 #### Requirements
-Using Xcode to implement the Dropbox NUX flow with the following goals:
-
 * [x] User can tap through the 3 welcome screens.
 * [x] User can follow the create user flow.
 * [x] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
