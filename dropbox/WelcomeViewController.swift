@@ -1,5 +1,5 @@
 //
-//  createAccountViewController.swift
+//  WelcomeViewController.swift
 //  dropbox
 //
 //  Created by Court Kizer on 5/9/15.
@@ -8,19 +8,20 @@
 
 import UIKit
 
-class createAccountViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
     
-    
+    @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
+        scrollView.contentSize = CGSize(width: 320, height: 1000)
+
         // Do any additional setup after loading the view.
     }
-    
-   
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

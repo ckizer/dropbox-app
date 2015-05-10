@@ -12,6 +12,9 @@ class SettingsViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var settingsImageView: UIImageView!
+    @IBOutlet weak var button: UIButton!
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
